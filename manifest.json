@@ -2,7 +2,7 @@
   "description": "Getting count of Test Cases found by filter",
   "manifest_version": 2,
   "name": "TestRail TestCasesCount",
-  "version": "1.0",
+  "version": "1.1",
   "homepage_url": "https://github.com/cernyjan/TestRail-TestCasesCount",
   "icons": {
     "48": "icons/calculator-48.png"

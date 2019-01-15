@@ -12,7 +12,7 @@ $( document ).ready(function() {
 		function checkFilter() {
 		    if ($('#filterByEmpty[style*="display: none;"]').length > 0 || $('#filterByEmpty:not([style])').length > 0)
 			{
-				var count = $('#groups').find('table').find('tr:not(.header.sectionRow.caseDroppable)').length;
+				var count = $('#groups').find('table').find('tr:not(.header.sectionRow):not(.header.sectionRow.caseDroppable)').length;
 				var content = "<p id='tcCount'>Found by filter: <strong>" + count + "</strong></p>";
 				if ($('#tcCount').length == 0)
 				{
